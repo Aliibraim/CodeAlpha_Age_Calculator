@@ -1,0 +1,92 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center; 
+    /* background-color: #006266; */
+    background-image: linear-gradient(to right,black,#006266 ,black);
+}
+h1 {
+    width: 400px;
+    font-size: 50px;
+    color: black;   
+    border-bottom: 6px solid black;
+    border-radius: 4px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    margin: auto;
+    margin-top: 100px;
+    padding-bottom: 10px;
+    text-shadow: 2px 2px 4px rgba(255,255,255,0.57);
+}
+.container {
+    width: 480px;
+    min-height: 120px;
+    margin: 0 auto;
+    padding: 40px 20px 20px 20px;
+    background-color: black;
+    border: 2px solid white;
+    border-radius:10px;
+    margin-top: 70px;
+    align-items: center;
+    box-shadow: 0px 1px 15px 4px rgba(0,0,0,0.75);
+-webkit-box-shadow: 0px 1px 15px 4px rgba(0,0,0,0.75);
+-moz-box-shadow: 0px 1px 15px 4px rgba(0,0,0,0.75);
+}
+
+.container label{
+    font-size: 25px ;
+    font-weight: 750;
+    border-bottom: 4px solid #006266;
+    border-radius: 4px;
+    padding-bottom: 5px;
+    color: #006266;
+    margin-right: 10px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;;
+}
+.container input{
+    width: 130px;
+    height: 33px;
+    padding: 0px 10px;
+    outline: 0;
+    margin-right: 10px;
+    border: 2px solid white;
+    background-color: #006266;
+    color: black;
+    border-radius: 4px;
+    cursor: pointer;
+}
+.container button{
+    padding: 7px 15px;
+    outline: 0;
+    background-color: #006266;
+    border: 1px solid white;
+    border-radius: 4px;
+    font-weight: 800;
+    cursor: pointer;
+}
+.result{
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    margin-top: 20px;
+}
+.result h3{
+    color: #006266;
+    border-bottom: 4px solid #006266;
+    border-radius: 3px;
+    padding-bottom: 5px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+.result p{
+    font-weight: 700;
+    font-size: 20px;
+    width: 30px;
+    height: 20px;
+    border: 2px solid white;
+    border-radius: 6px;
+    padding: 15px;
+    align-items: center;
+    background-color: #006266;
+}
+#resultMon{  /*ITS FOR MONTHS VALUE BOX CENTER */
+    position: relative;
+    left: 5px;
+}
